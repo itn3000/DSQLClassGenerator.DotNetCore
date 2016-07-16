@@ -12,12 +12,15 @@ C# class generator for DeclarativeSQL( https://github.com/xin9le/DeclarativeSql 
 
 ## Usage
 
-1. edit connection string named 'Target' in DSQLClassGenerator.exe.config to your target database
-2. execute the exe
+1. run ```[solution dir]/build.bat```
+2. create new project with ```dotnet new```
+3. create NuGet.config and add ```[solution dir]/build/``` to packageSources entry
+4. do ```dotnet restore```
+5. run command
 
 ## Commandline options
 
-Basic usage:`DSQLClassGenerator.exe [options]`
+Basic usage:`dotnet dsqlclassgenerator [options]`
 options are:
 * `-a` or `--amalgamation`
     * generate classes into one file
