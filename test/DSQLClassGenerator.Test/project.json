@@ -1,0 +1,31 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "xunit": "2.2.0-beta2-build3300",
+    "xunit.runner.visualstudio": "2.2.0-beta2-build1149",
+    "DSQLClassGenerator.DotNetCore": {
+      "target": "project"
+    },
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Microsoft.CodeAnalysis.CSharp": "1.3.2",
+    "Microsoft.CodeAnalysis.CSharp.Workspaces": "1.3.2",
+    "Microsoft.CodeAnalysis.Compilers": "1.3.2",
+    "Npgsql": "3.1.6"
+  },
+  "testRunner": "xunit",
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "portable-net45",
+        "dnxcore50"
+      ],
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      }
+    }
+  }
+}

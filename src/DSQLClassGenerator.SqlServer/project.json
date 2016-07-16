@@ -1,0 +1,22 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "DSQLClassGenerator.Common": {
+      "target": "project"
+    }
+  },
+
+  "frameworks": {
+    "net451": {
+
+    },
+    "netstandard1.3": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "System.Data.SqlClient": "4.1.0"
+      }
+    }
+  }
+}

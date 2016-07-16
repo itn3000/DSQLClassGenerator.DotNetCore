@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{24B38A74-B637-4D34-9CE5-98E4744779E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3EBB736-AAA4-4A53-81E8-7D8C47C5F060}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSQLClassGenerator.DotNetCore", "src\DSQLClassGenerator.DotNetCore\DSQLClassGenerator.DotNetCore.xproj", "{670DC963-95FC-4F28-8076-A2A6FBD6394F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSQLClassGenerator.Common", "src\DSQLClassGenerator.Common\DSQLClassGenerator.Common.xproj", "{3B64D7FA-0B93-4AAB-AF27-BD1789BEEF0C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSQLClassGenerator.SqlServer", "src\DSQLClassGenerator.SqlServer\DSQLClassGenerator.SqlServer.xproj", "{16B6C93A-4B21-4A79-BD3F-41D91E5F6CEB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSQLClassGenerator.Postgres", "src\DSQLClassGenerator.Postgres\DSQLClassGenerator.Postgres.xproj", "{A144658E-331E-437A-AF08-0F113E9AB415}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSQLClassGenerator.Generator", "src\DSQLClassGenerator.Generator\DSQLClassGenerator.Generator.xproj", "{061848C4-30B6-4FF0-8452-27589559E349}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9DA3E780-BB49-49A7-8B34-C8281502E5EC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSQLClassGenerator.Test", "test\DSQLClassGenerator.Test\DSQLClassGenerator.Test.xproj", "{93B4CE1D-AE32-451D-A4D9-5B22178AA624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{A40A9E7D-C485-4695-A299-DB7C908A4281}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DSQLClassGenerator.DotNet.Sample", "sample\DSQLClassGenerator.DotNet.Sample\DSQLClassGenerator.DotNet.Sample.xproj", "{C7344842-6F93-4356-8053-B2BC7D976D90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{670DC963-95FC-4F28-8076-A2A6FBD6394F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670DC963-95FC-4F28-8076-A2A6FBD6394F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670DC963-95FC-4F28-8076-A2A6FBD6394F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670DC963-95FC-4F28-8076-A2A6FBD6394F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B64D7FA-0B93-4AAB-AF27-BD1789BEEF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B64D7FA-0B93-4AAB-AF27-BD1789BEEF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B64D7FA-0B93-4AAB-AF27-BD1789BEEF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B64D7FA-0B93-4AAB-AF27-BD1789BEEF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B6C93A-4B21-4A79-BD3F-41D91E5F6CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B6C93A-4B21-4A79-BD3F-41D91E5F6CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B6C93A-4B21-4A79-BD3F-41D91E5F6CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B6C93A-4B21-4A79-BD3F-41D91E5F6CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A144658E-331E-437A-AF08-0F113E9AB415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A144658E-331E-437A-AF08-0F113E9AB415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A144658E-331E-437A-AF08-0F113E9AB415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A144658E-331E-437A-AF08-0F113E9AB415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061848C4-30B6-4FF0-8452-27589559E349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061848C4-30B6-4FF0-8452-27589559E349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061848C4-30B6-4FF0-8452-27589559E349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061848C4-30B6-4FF0-8452-27589559E349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B4CE1D-AE32-451D-A4D9-5B22178AA624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B4CE1D-AE32-451D-A4D9-5B22178AA624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B4CE1D-AE32-451D-A4D9-5B22178AA624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B4CE1D-AE32-451D-A4D9-5B22178AA624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7344842-6F93-4356-8053-B2BC7D976D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7344842-6F93-4356-8053-B2BC7D976D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7344842-6F93-4356-8053-B2BC7D976D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7344842-6F93-4356-8053-B2BC7D976D90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{670DC963-95FC-4F28-8076-A2A6FBD6394F} = {24B38A74-B637-4D34-9CE5-98E4744779E3}
+		{3B64D7FA-0B93-4AAB-AF27-BD1789BEEF0C} = {24B38A74-B637-4D34-9CE5-98E4744779E3}
+		{16B6C93A-4B21-4A79-BD3F-41D91E5F6CEB} = {24B38A74-B637-4D34-9CE5-98E4744779E3}
+		{A144658E-331E-437A-AF08-0F113E9AB415} = {24B38A74-B637-4D34-9CE5-98E4744779E3}
+		{061848C4-30B6-4FF0-8452-27589559E349} = {24B38A74-B637-4D34-9CE5-98E4744779E3}
+		{93B4CE1D-AE32-451D-A4D9-5B22178AA624} = {9DA3E780-BB49-49A7-8B34-C8281502E5EC}
+		{C7344842-6F93-4356-8053-B2BC7D976D90} = {A40A9E7D-C485-4695-A299-DB7C908A4281}
+	EndGlobalSection
+EndGlobal

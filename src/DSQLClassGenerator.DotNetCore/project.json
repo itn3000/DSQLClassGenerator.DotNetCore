@@ -1,0 +1,49 @@
+﻿{
+  "version": "1.0.0-*",
+  "authors": [ "itn3000" ],
+  "packOptions": {
+    "summary": "DeclarativeSQL class generator tool for dotnet-cli",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/itn3000/DSQLClassGenerator.DotNetCore.git"
+    }
+  },
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "outputName": "dotnet-dsqlclassgenerator"
+  },
+
+  "dependencies": {
+    "Microsoft.Extensions.CommandLineUtils": "1.0.0",
+    "DSQLClassGenerator.SqlServer": {
+      "target": "project"
+    },
+    "DSQLClassGenerator.Postgres": {
+      "target": "project"
+    },
+    "DSQLClassGenerator.Generator": {
+      "target": "project"
+    },
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Npgsql": "3.1.6"
+  },
+  "frameworks": {
+    "net451": {
+      "buildOptions": {
+        "outputName": "DSQLClassGenerator.DotNetCore"
+      }
+    },
+    "netcoreapp1.0": {
+      "imports": [
+        "dnxcore50",
+        "portable-net45"
+      ],
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      }
+    }
+  }
+}

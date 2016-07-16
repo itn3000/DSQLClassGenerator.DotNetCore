@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DSQLClassGenerator.DotNetCore": {
+      "commandName": "Project",
+      "commandLineArgs": "--config \"$(ProjectDir)dbsetting.json\" -v"
+    }
+  }
+}
